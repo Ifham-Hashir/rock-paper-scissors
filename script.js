@@ -9,9 +9,9 @@ function getComputerChoice() {
 }
 
 function getPlayerChoice(){
-  let userInput = prompt("Enter Rock, Paper or Scissor.");
-  userInput = userInput.toUpperCase();
-  return userInput;
+  let playerInput = prompt("Enter Rock, Paper or Scissor.");
+  playerInput = userInput.toUpperCase();
+  return playerInput;
 }
 
 function playRound(playerSelection, computerSelection){
