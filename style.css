@@ -1,0 +1,38 @@
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h1,h3 {
+  text-align: center;
+  margin: 30px;
+  color: gainsboro;
+}
+
+.result, .result2, .currentScore, #winner {
+  text-align: center;
+  margin: 30px;
+  color: gainsboro;
+  font-size: large;
+  font-weight: bolder;
+}
+
+.play-again {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  text-align: center;
+  margin: 50px;
+  padding: 20px;
+  font-size: larger;
+  background-color: rgb(164, 47, 47);
+  font-weight: bolder;
+}
+
+
+body {
+  background-color: black;
+}
